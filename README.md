@@ -16,7 +16,10 @@ This Week 1 build establishes the \*\*core skeleton\*\*: \`Customer\_Master\`, \
 \---
 
 \#\# Documentation (Week 1\)  
-\- \[BRD.md\](./BRD.md) – Business Requirements Document    
+\- \[BRD.md\](./BRD.md) – Business Requirements Document  
+\- \[DEMO.md](./DEMO.md) – Demo instructions and links  
+\- \[DISCLAIMER.md](./DISCLAIMER.md) – Data and usage disclaimer 
+\- \[LICENSE.md](./LICENSE.md) – Terms of Use / Licensing
 \- \[CHANGELOG.md\](./CHANGELOG.md) – Version history  
 
 \---
