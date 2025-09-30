@@ -27,3 +27,36 @@ This version (v1.1.0) establishes the \*\*foundation\*\*: centralizing customer 
 \- \*\*Secondary Users\*\*: Branch Managers.    
 \- \*\*Project Owner\*\*: Solo developer (portfolio project).  
 
+\# Business Requirements Document (BRD) – v1.3.0
+
+\#\# 1\. Project Overview  
+By v1.3.0, the CRM MVP evolves from a static foundation into a governed, automated structure.    
+This release introduces \*\*data validation, lookup controls, automation, and conditional formatting\*\* to enforce data quality and reduce manual work.  
+
+\---
+
+\#\# 2\. Objectives  
+\- Enforce \*\*data governance\*\* through validations and lookup tables.    
+\- Automate \*\*AUM calculations\*\* and product consistency checks.    
+\- Improve \*\*usability and error prevention\*\* with conditional formatting.  
+
+\---
+
+\#\# 3\. Scope (v1.2 – v1.3)  
+\- \*\*Data Validation & Lookups\*\*: Centralized reference tables.    
+\- \*\*Automation\*\*: Auto-calculated AUM, tier, and banding.    
+\- \*\*Conditional Formatting\*\*: Color scales for key metrics, staleness flags.    
+\- \*\*Sales Funnel Enhancements\*\*: Basic duration tracking.  
+
+\---
+
+\#\# 4\. Non-Functional Requirements  
+\- \*\*Data Quality\*\*: Structured entry enforced via validation.    
+\- \*\*Usability\*\*: Drop-downs, formatting cues, reduced error risk.  
+
+\---
+
+\#\# 5\. Success Criteria  
+\- RMs can manage \*\*100+ customers\*\* with consistent, error-free records.    
+\- AUM, Tier, and Funnel metrics \*\*auto-update\*\* without manual recalculation.  
+

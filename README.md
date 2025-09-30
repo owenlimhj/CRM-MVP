@@ -5,7 +5,6 @@ This Week 1 build establishes the \*\*core skeleton\*\*: \`Customer\_Master\`, \
 
 \---
 
-\#\# Current Version    
 \*\*v1.1.0 – Core Foundation\*\*  
 
 \- \`Customer\_Master\`, \`Sales\_Funnel\` sheets created    
@@ -29,3 +28,29 @@ Next week: validation & automation features (FRD, USERSTORY).
 
 \---
 
+# Banking CRM MVP  
+
+Week 2 focuses on **Data Governance & Automation** — bringing validation, lookups and colour-coded exceptions so “garbage in” never reaches your pipeline.
+
+---
+
+## Current Version  
+**v1.3.0 – Governance Built-In**  
+
+- Centralised lookups and validation rules  
+- Conditional formatting for exceptions  
+- Auto-AUM calculation from dropdowns  
+- Added [FRD.md](./FRD.md) and [USERSTORY.md](./USERSTORY.md)  
+
+---
+
+## Documentation (Week 2)
+- [BRD.md](./BRD.md)  
+- [FRD.md](./FRD.md)  
+- [USERSTORY.md](./USERSTORY.md)  
+- [CHANGELOG.md](./CHANGELOG.md)  
+
+---
+
+## Roadmap Snapshot  
+Next week: Relational expansion (Staff, Opportunity, Appointment, ERD).
