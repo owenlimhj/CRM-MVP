@@ -60,3 +60,37 @@ This release introduces \*\*data validation, lookup controls, automation, and co
 \- RMs can manage \*\*100+ customers\*\* with consistent, error-free records.    
 \- AUM, Tier, and Funnel metrics \*\*auto-update\*\* without manual recalculation.  
 
+# Business Requirements Document (BRD) – v1.4.0
+
+## 1. Project Overview
+At v1.4.0, the CRM MVP moves from governed sheets into a **relational-like design** with multiple linked modules.  
+This release adds **Opportunity, Appointment, and Staff_Master** tables, creating the backbone for a more complete CRM workflow.  
+
+---
+
+## 2. Objectives
+- Expand CRM into a **multi-sheet relational flow**.  
+- Support **opportunity management** and deal tracking.  
+- Enable **appointment scheduling** linked to customers/opportunities.  
+- Introduce **staff allocation** for RM mapping and oversight.  
+
+---
+
+## 3. Scope (v1.4.0)
+- **Customer_Master**: Expanded with contact info, segments, risk profiles.  
+- **Opportunity**: Deal-level tracking with probability and days-to-close.  
+- **Appointment**: Meetings, outcomes, linked to opportunities.  
+- **Staff_Master**: RM details, branch, role, status.  
+- **Dashboards**: AUM pivot, pipeline conversion metrics.  
+
+---
+
+## 4. Non-Functional Requirements
+- **Portability**: Still Google Sheets, but structured for SQL migration.  
+- **Scalability**: Normalized schema with relational references.  
+
+---
+
+## 5. Roadmap
+- Next release (Enhanced MVP v1.5): **Audit trail, RBAC, UT dashboards, pseudo-APIs.**  
+- Long-term (v2.0): **Full-stack CRM with backend + compliance modules.**  

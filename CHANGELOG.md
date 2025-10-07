@@ -62,3 +62,21 @@ This project started as a solo MVP in Google Sheets and evolved iteratively.
   - Online Banking: highlight if "No"
 
 ---
+
+## [v1.4.0]
+### Changed
+- Reimagined **CRM flow & normalized schema**:  
+  `Staff_Master` → `Customer_Master` → `Sales_Funnel` → `Opportunity` → `Appointment`
+- Added **Staff_Master**, **Opportunity**, **Appointment** sheets
+  - **Staff_Master:** Staff ID, Name, Role, Branch, Region, Status
+  - **Opportunity:** Opty ID, Creation Date, CIF, Customer Name, Staff ID, Opty Status, Product Type, Sales Volume, Probability, Expected Close Date, Days to Close, Last Activity Date, Notes
+  - **Appointment:** Appt ID, Opty ID, CIF, Name, Staff ID, Product Type, Appt Date/Time, Outcome
+- Updated **Customer_Master schema**:
+  - Added `Contact No`, `Email`, `Segment`, `Bond`, `Risk Profile Last Updated`
+- Updated **Sales_Funnel schema**:
+  - Added `Funnel ID`, `RM Staff ID`, Engagement Status fields
+- Expanded **Lookups**: Roles, Segments, Engagement Status, Opty Status, Product Types
+- Implemented **validation, conditional formatting & calculations across all sheets**:
+  - Status highlights, staleness alerts, probability color scales, date constraints, etc.
+
+—--

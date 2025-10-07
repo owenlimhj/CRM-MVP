@@ -54,3 +54,33 @@ Week 2 focuses on **Data Governance & Automation** — bringing validation, look
 
 ## Roadmap Snapshot  
 Next week: Relational expansion (Staff, Opportunity, Appointment, ERD).
+
+# Banking CRM MVP  
+
+Week 3 marks the **Relational Expansion** — moving from flat tables to a CRM-like flow with staff, opportunities and appointments.
+
+---
+
+## Current Version  
+**v1.4.0 – Relational Expansion**  
+
+- Added `Staff_Master`, `Opportunity`, `Appointment` sheets  
+- Normalised CRM flow (Staff ↔ Customer ↔ Sales Funnel ↔ Opportunity ↔ Appointment)  
+- Published [ERD.puml](./ERD.puml), [ARCHITECTURE.md](./ARCHITECTURE.md) and [PROCESS_FLOWS.md](./PROCESS_FLOWS.md)  
+
+---
+
+## Documentation (Week 3)
+- BRD, FRD, USERSTORY  
+- [ERD.puml](./ERD.puml) – Entity Relationship Diagram  
+- [ARCHITECTURE.md](./ARCHITECTURE.md) – High-level system design  
+- [PROCESS_FLOWS.md](./PROCESS_FLOWS.md) – BPMN workflows  
+- CHANGELOG  
+
+---
+
+## Roadmap Snapshot  
+Next week: Complete dashboards and start UAT planning.
+
+
+
