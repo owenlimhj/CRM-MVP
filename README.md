@@ -6,7 +6,7 @@ This Week 1 build establishes the \*\*core skeleton\*\*: \`Customer\_Master\`, \
 \---
 
 For the latest DEMO, kindly navigate to 
-**release> v1.4.3**
+**releases> v1.4.3**
 
 Thank you for your support.
 
