@@ -34,7 +34,6 @@ Week 2 focuses on **Data Governance & Automation** — bringing validation, look
 
 ---
 
-## Current Version  
 **v1.3.0 – Governance Built-In**  
 
 - Centralised lookups and validation rules  
