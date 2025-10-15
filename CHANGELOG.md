@@ -80,3 +80,27 @@ This project started as a solo MVP in Google Sheets and evolved iteratively.
   - Status highlights, staleness alerts, probability color scales, date constraints, etc.
 
 —--
+
+## [v1.4.3]
+### Added
+- Introduced **block-based write and clear logic** to handle protected cells:
+  - `writeRowsPreserveFormulas` now writes only to allowed ranges per sheet and skips protected/formula cells.
+  - `clearBodyPreserveFormulas` and `deleteGeneratedData` now operate only within defined allowed blocks.
+- Added **allowed block mapping** for each sheet to avoid errors on protected ranges:
+  - `Customer_Master`, `Sales_Funnel`, `Opportunity`, `Appointment`, `Staff_Master`
+- Created **centralized library** containing all reusable generation functions for Customer, Opportunity, Appointment, and Staff_Master.
+- Ensured **fully functional CRM copy** with realistic data intact while preserving formulas and protection.
+- Optimized **bulk data operations** to reduce execution time and avoid protected cell errors.
+
+### Changed
+- Adjusted **Customer_Master generator**:
+  - `Risk Profile` generation now respects "Not Assigned" option.
+  - `Risk Profile Last Updated` left empty if Risk Profile is "Not Assigned", otherwise randomized to a past date.
+- Updated **Opportunity and Appointment Notes**:
+  - Notes now optionally generated using helper functions, not fixed "Initial notes".
+- Refactored generators and write functions to **skip all protected/formula cells entirely**, reducing execution errors and improving performance.
+
+### Fixed
+- Resolved errors caused by protected formulas/ranges when generating data.
+- Prevented **CIF and other critical fields** from being blocked by formula protection.
+- Improved stability and bulk performance across all sheet generators.

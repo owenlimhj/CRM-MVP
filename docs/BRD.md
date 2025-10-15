@@ -94,3 +94,29 @@ This release adds **Opportunity, Appointment, and Staff_Master** tables, creatin
 ## 5. Roadmap
 - Next release (Enhanced MVP v1.5): **Audit trail, RBAC, UT dashboards, pseudo-APIs.**  
 - Long-term (v2.0): **Full-stack CRM with backend + compliance modules.**  
+
+
+# CRM MVP – Demo Ready (v1.4.3)
+
+The CRM MVP is now **demo-ready** after 5 weeks of iterative releases.  
+It has matured from a flat spreadsheet into a **multi-sheet CRM** with validation, automation, dashboards, and performance refactors.
+
+---
+
+## Current Capabilities
+- **Core RM Workflow**: Staff ↔ Customer ↔ Opportunities ↔ Appointments.  
+- **AUM Dashboard**: Live portfolio insights with pivot charts.  
+- **Robust Engine**: Block-based write/clear logic preserves formulas and scales.  
+- **Sample Data**: Realistic demo datasets across all modules.  
+
+---
+
+## Documentation
+- **CHANGELOG.md** → Full evolution from v1.0.0 → v1.4.3.  
+- **Full BRD** → [Link to main BRD](./BRD.md) (includes Enhanced MVP v1.5 + roadmap to v2.0).  
+
+---
+
+## Next Steps
+- Open for **pilot testing and feedback**.  
+- Collaborate with professionals in **wealth management, asset management, insurance, and investment banking**.  

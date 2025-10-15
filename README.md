@@ -61,7 +61,6 @@ Week 3 marks the **Relational Expansion** — moving from flat tables to a CRM-l
 
 ---
 
-## Current Version  
 **v1.4.0 – Relational Expansion**  
 
 - Added `Staff_Master`, `Opportunity`, `Appointment` sheets  
@@ -81,6 +80,48 @@ Week 3 marks the **Relational Expansion** — moving from flat tables to a CRM-l
 
 ## Roadmap Snapshot  
 Next week: Complete dashboards and start UAT planning.
+
+
+# Banking CRM MVP  
+
+Week 4–5 culminates in **Deep Linking, Dashboarding & Performance Enhancements** — the CRM MVP is now demo-ready, offering live insights, relational flows, and a robust engine that preserves formulas while scaling to large datasets.
+
+---
+
+## Current Version  
+**v1.4.3 – Demo-Ready MVP**  
+
+- Full sample data for all sheets  
+- AUM Dashboard complete (pivot charts, tier mix, pipeline KPIs)  
+- Delete-data menu added  
+- Block-based write/clear logic  
+- Protected-cell skipping  
+- Centralised generator library for large-scale data creation  
+- Published [ROADMAP.md](./ROADMAP.md) milestone update & [UAT_PLAN.md](./UAT_PLAN.md) draft  
+- Published [RTM.md](./RTM.md) for full documentation  
+
+---
+
+## Documentation (Week 4–5)
+- BRD, FRD, USERSTORY  
+- ERD, ARCHITECTURE, PROCESS_FLOWS  
+- [ROADMAP.md](./ROADMAP.md) – Updated milestones  
+- [UAT_PLAN.md](./UAT_PLAN.md) – Draft UAT plan  
+- [RTM.md](./RTM.md) – Requirements Traceability Matrix  
+- [USERGUIDE.md](./USERGUIDE.md) – End-user instructions  
+- CHANGELOG  
+
+---
+
+## Roadmap Snapshot  
+Next phase (v1.5 – Enhanced MVP):  
+
+- Simulated RBAC (role-based access & branch filtering)  
+- Basic Audit Trail  
+- Case & Revenue Module  
+- UT Dashboarding & Calculations  
+- Pseudo-APIs and library modularity  
+See [ROADMAP.md](./ROADMAP.md) for full details.
 
 
 
